@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+  int start,end;
+printf("Enter initial and final meter reading :");
+scanf("%d %d",&start, &end);
+intc =end - start;
+float c=d;
+If(d <100)  d=d*1.5;
+If(d >100 && d<200)  d=d*2.5;
+If(d >200 && d<500)  d= 3.5
+printf("Total consumed unit is %d so bill is %.2f",c,d);
+return 0;
+}

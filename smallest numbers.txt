@@ -1,0 +1,14 @@
+#include  <stdio.h>
+int main( )
+{
+int a,b,c,d,e;
+printf("Enter five numbers");
+scanf("%d %d %d %d %d", &a,&b,&c,&d,&e);
+int min=a;
+if(min>b) min=b;
+if(min>c) min=c;
+if(min>d) min=d;
+if(min>e) min=e;
+printf("%f is the minimum value",min);
+return 0;
+}
