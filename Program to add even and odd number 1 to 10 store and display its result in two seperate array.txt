@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+ {
+    int oddNumbers[5], evenNumbers[5];
+    int oddIndex = 0, evenIndex = 0;
+
+    for (int i = 1; i <= 10; i++);
+        if (i % 2 == 0) 
+        {
+            evenNumbers[evenIndex] = i;
+            evenIndex++;
+        }
+ else 
+      {
+            oddNumbers[oddIndex] = i;
+            oddIndex++;
+        }
+    }
+
+    printf("Odd Numbers: ");
+    for (int i = 0; i < oddIndex; i++) {
+        printf("%d ", oddNumbers[i]);
+    }
+    printf("\n");
+
+    printf("Even Numbers: ");
+    for (int i = 0; i < evenIndex; i++) {
+        printf("%d ", evenNumbers[i]);
+    }
+
+    return 0;
+}
