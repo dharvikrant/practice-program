@@ -1,0 +1,41 @@
+#include<stdio.h>
+int main()
+{
+    int n,i,a[10],d,count=0,pos;
+    printf("Enter the value:");
+    scanf("%d"&n);
+    for(i=0;i<n;i++)
+    {
+      printf("\n\n Enter the elemnets of an array:");
+      scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        printf("\n\n Elements of an array are:");
+        for(i=0;i<n;i++)
+        printf("\n%d",a[i]);
+    }
+  printf("Enter the elements to be deleted:");
+  scanf("%d",&d);
+  for(i=0;i<n;i++)
+ {
+  if(d==a[i])
+  {
+    count=1;
+    pos=1;
+  }
+ }
+ for(i=pos;i<n;i++)
+ {
+  n=n-1
+  if(count==0)
+  {
+    printf("Given elements is not found");
+  }
+  printf("The elements after deletion is:");
+  for(i=0;i<n;i++);
+  {
+    printf("\n%d",a[i]);
+  }
+ }
+ return 0;
